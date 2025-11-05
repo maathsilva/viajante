@@ -15,11 +15,11 @@
   ],
   "rewrites": [
     {
-      "src": "/(reservas|destinos|clientes|importar)(.*)",
+      "source": "/(reservas|destinos|clientes|importar)(.*)",
       "dest": "/backend/app/main.py"
     },
     {
-      "src": "/(.*)",
+      "source": "/(.*)",
       "dest": "/frontend/dist/$1"
     }
   ]
