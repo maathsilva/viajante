@@ -1,18 +1,13 @@
-# Pasta do Ambiente Virtual do Backend
-backend/.venv/
-
-# Arquivo de Segredos do Backend
+# Python / Backend
+backend/venv/
 backend/.env
-
-# Arquivos de Cache do Python
 backend/app/__pycache__/
 __pycache__/
 
-# Arquivos de Cache do Frontend
+# Node / Frontend
 frontend/node_modules/
-frontend/.DS_Store
 frontend/dist/
+frontend/.env*
 
-# Logs e arquivos de build
-*.log
-*.sql
+# OS
+.DS_Store
